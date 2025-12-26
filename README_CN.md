@@ -2,12 +2,14 @@
 
 <div align="center">
 
-![TurboMeta Logo](./rayban.png)
+<img src="./rayban.png" width="120" alt="TurboMeta Logo"/>
 
 **🌏 全球首个支持全中文AI的全模态 RayBan Meta 助手**
 
-[![Platform](https://img.shields.io/badge/Platform-iOS%2017.0%2B-blue.svg)](https://www.apple.com/ios/)
+[![iOS](https://img.shields.io/badge/iOS-17.0%2B-blue.svg)](https://www.apple.com/ios/)
+[![Android](https://img.shields.io/badge/Android-8.0%2B-green.svg)](https://www.android.com/)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-purple.svg)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/Turbo1123/turbometa-rayban-ai)](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
 
@@ -15,13 +17,47 @@
 
 </div>
 
+## 🎨 界面预览
+
+<table>
+  <tr>
+    <td align="center"><b>首页</b></td>
+    <td align="center"><b>对话记录</b></td>
+    <td align="center"><b>拍摄页面</b></td>
+    <td align="center"><b>设置页面</b></td>
+  </tr>
+  <tr>
+    <td><img src="./首页.jpg" width="180"/></td>
+    <td><img src="./对话记录.jpg" width="180"/></td>
+    <td><img src="./拍摄页面.jpg" width="180"/></td>
+    <td><img src="./设置页面.jpg" width="180"/></td>
+  </tr>
+</table>
+
 ## 📥 下载安装
 
-> **无需上架 App Store** - 下载 IPA 后使用签名工具自签安装
+> **无需上架应用商店** - 直接下载安装
+
+### 📱 Android（推荐）
 
 | 版本 | 下载链接 | 大小 |
 |------|----------|------|
-| v1.0.0 | [**TurboMeta_unsigned.ipa**](https://github.com/Turbo1123/turbometa-rayban-ai/releases/download/v1.0.0/TurboMeta_unsigned.ipa) | 6.0 MB |
+| v1.0.0 | [**TurboMeta-v1.0.0.apk**](https://github.com/Turbo1123/turbometa-rayban-ai/releases/tag/v1.0.0) | 77 MB |
+
+**Android 安装步骤：**
+1. 下载 APK 文件
+2. 在设置中开启"允许安装未知来源应用"
+3. 打开 APK 进行安装
+4. 授予权限（蓝牙、麦克风）
+5. 在设置中配置 API Key
+
+---
+
+### 🍎 iOS
+
+| 版本 | 下载链接 | 大小 |
+|------|----------|------|
+| v1.0.0 | [**TurboMeta_unsigned.ipa**](https://github.com/Turbo1123/turbometa-rayban-ai/releases/tag/v1.0.0) | 6.0 MB |
 
 ### 安装工具推荐
 
@@ -89,14 +125,23 @@ TurboMeta 是专为 RayBan Meta 智能眼镜打造的全模态AI助手，集成�
 
 ## 🛠️ 技术栈
 
+### iOS
 - **平台**：iOS 17.0+
 - **语言**：Swift 5.0 + SwiftUI
 - **SDK**：Meta Wearables DAT SDK v0.3.0
-- **AI模型**：
-  - 通义千问 Omni-Realtime：实时多模态对话
-  - 通义千问 VL-Plus：视觉理解和图像分析
 - **架构**：MVVM + Combine
 - **音频**：AVAudioEngine + AVAudioPlayerNode
+
+### Android
+- **平台**：Android 8.0+ (API 26)
+- **语言**：Kotlin 1.9 + Jetpack Compose
+- **SDK**：Meta Wearables DAT SDK v0.3.0
+- **架构**：MVVM + StateFlow
+- **UI**：Material 3 Design
+
+### AI 模型
+- **通义千问 Omni-Realtime**：实时多模态对话
+- **通义千问 VL-Plus**：视觉理解和图像分析
 
 ## 📋 前置要求
 
@@ -217,21 +262,6 @@ ios-deploy --bundle YourApp.app
 3. 进行直播内容创作
 4. 点击停止按钮结束直播
 
-## 🎨 界面预览
-
-<table>
-  <tr>
-    <td><b>首页</b></td>
-    <td><b>Live AI</b></td>
-    <td><b>营养分析</b></td>
-  </tr>
-  <tr>
-    <td><img src="./screenshots/home.png" width="200"/></td>
-    <td><img src="./screenshots/liveai.png" width="200"/></td>
-    <td><img src="./screenshots/nutrition.png" width="200"/></td>
-  </tr>
-</table>
-
 ## ⚙️ 配置选项
 
 ### API 配置
@@ -317,6 +347,7 @@ struct VisionAPIConfig {
 - [x] 中英文双语支持
 - [x] 对话记录保存
 - [x] 一键隐藏对话
+- [x] **Android 版本发布** 🎉
 
 ### 🚧 进行中
 - [ ] 完善多语言支持
@@ -434,6 +465,16 @@ DerivedData/
 - 🐛 报告 Bug 或提出建议
 - 🔀 Fork 并贡献代码
 - 📢 分享给更多人
+
+## ☕ 请我喝杯咖啡
+
+如果这个项目对你有帮助，欢迎请我喝杯咖啡！
+
+<div align="center">
+<img src="./请我喝咖啡.png" width="200" alt="微信支付"/>
+
+**微信支付**
+</div>
 
 ---
 
