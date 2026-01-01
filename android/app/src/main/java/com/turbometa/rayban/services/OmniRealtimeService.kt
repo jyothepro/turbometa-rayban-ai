@@ -1,6 +1,7 @@
 package com.turbometa.rayban.services
 
 import android.graphics.Bitmap
+import android.media.AudioAttributes
 import android.media.AudioFormat
 import android.media.AudioManager
 import android.media.AudioRecord
@@ -359,13 +360,24 @@ class OmniRealtimeService(
                 AudioFormat.ENCODING_PCM_16BIT
             )
 
+            // 使用 AudioAttributes 替代已弃用的 STREAM_MUSIC（兼容性更好）
+            val audioAttributes = AudioAttributes.Builder()
+                .setUsage(AudioAttributes.USAGE_MEDIA)
+                .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                .build()
+
+            val audioFormat = AudioFormat.Builder()
+                .setSampleRate(SAMPLE_RATE)
+                .setChannelMask(AudioFormat.CHANNEL_OUT_MONO)
+                .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
+                .build()
+
             audioTrack = AudioTrack(
-                AudioManager.STREAM_MUSIC,
-                SAMPLE_RATE,
-                AudioFormat.CHANNEL_OUT_MONO,
-                AudioFormat.ENCODING_PCM_16BIT,
+                audioAttributes,
+                audioFormat,
                 bufferSize * 2,
-                AudioTrack.MODE_STREAM
+                AudioTrack.MODE_STREAM,
+                AudioManager.AUDIO_SESSION_ID_GENERATE
             )
             audioTrack?.play()
         }
