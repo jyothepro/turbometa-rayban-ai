@@ -28,7 +28,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.turbometa.rayban.R
+import com.turbometa.rayban.data.QuickVisionStorage
 import com.turbometa.rayban.managers.APIProviderManager
+import com.turbometa.rayban.managers.QuickVisionModeManager
 import com.turbometa.rayban.services.VisionAPIService
 import com.turbometa.rayban.ui.theme.*
 import com.turbometa.rayban.utils.APIKeyManager
@@ -81,7 +83,9 @@ fun QuickVisionScreen(
     // Services
     val apiKeyManager = remember { APIKeyManager.getInstance(context) }
     val providerManager = remember { APIProviderManager.getInstance(context) }
-    val visionService = remember { VisionAPIService(apiKeyManager, providerManager) }
+    val visionService = remember { VisionAPIService(apiKeyManager, providerManager, context) }
+    val quickVisionStorage = remember { QuickVisionStorage.getInstance(context) }
+    val modeManager = remember { QuickVisionModeManager.getInstance(context) }
 
     // Output language for TTS/API (user's preference for AI responses)
     val outputLanguage = remember { apiKeyManager.getOutputLanguage() }
@@ -237,6 +241,19 @@ fun QuickVisionScreen(
                 Log.d(TAG, "✅ Analysis result: $description")
                 analysisResult = description
                 statusText = ""
+
+                // Save record with thumbnail
+                val prompt = modeManager.getPrompt()
+                val currentMode = modeManager.currentMode.value
+                val visionModel = providerManager.selectedModel.value
+                val saved = quickVisionStorage.saveRecord(
+                    bitmap = photo,
+                    prompt = prompt,
+                    result = description,
+                    mode = currentMode,
+                    visionModel = visionModel
+                )
+                Log.d(TAG, "📝 Record saved: $saved")
 
                 // Speak result
                 speak(description)
