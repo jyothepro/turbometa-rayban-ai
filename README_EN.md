@@ -4,7 +4,7 @@
 
 <img src="./rayban.png" width="120" alt="TurboMeta Logo"/>
 
-**🌏 World's First Full-Chinese AI Multimodal RayBan Meta Assistant**
+**The Ultimate Multimodal AI Assistant for RayBan Meta Smart Glasses**
 
 [![iOS](https://img.shields.io/badge/iOS-17.0%2B-blue.svg)](https://www.apple.com/ios/)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-green.svg)](https://www.android.com/)
@@ -12,8 +12,7 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-purple.svg)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/Turbo1123/turbometa-rayban-ai)](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/turbo1123)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](./paypal2.png)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-FFDD00?style=flat-square)](https://buymeacoffee.com/turbo1123)
 
 [English](./README_EN.md) | [简体中文](./README.md)
 
@@ -29,33 +28,32 @@
 
 **Museum guide, accessibility assistant, reading mode, real-time translation - one pair of glasses, endless possibilities!**
 
-✅ **iOS v1.5.0** | 📱 **Android v1.5.0** [Download](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
+✅ **iOS v1.5.0** | 📱 **Android v1.5.0** [Download Now](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
 
-☕ **Enjoying this project?** [**Buy me a coffee**](https://buymeacoffee.com/turbo1123) or [**PayPal**](./paypal2.png) to support development!
+☕ **Enjoying this project?** [**Buy me a coffee**](https://buymeacoffee.com/turbo1123) to support development!
 
 </div>
 
-> ☕ **Enjoying this project?** This is a passion project maintained in my spare time. If it's been helpful to you, consider [**buying me a coffee**](https://buymeacoffee.com/turbo1123) or donate via [**PayPal**](./paypal2.png) - it really helps keep the project going!
-
-### 🆕 v1.5 New Features
+### 🆕 What's New in v1.5
 
 - 🧠 **Live AI Multi-Mode**: Museum mode, Accessibility mode, Reading mode, Translation mode, Custom prompts
 - 👁️ **Quick Vision Multi-Mode**: Health analysis, Encyclopedia mode, Reading mode, Translation mode
-- 🗣️ **Siri Shortcuts**: Voice-activate Quick Vision and Live AI
+- 🗣️ **Siri Shortcuts**: Voice-activate Quick Vision and Live AI with "Real-time Chat" wake word
+- 💾 **Records Storage**: Save and review your conversation history
 
 ### 🎯 Core Features
 
-- 🎬 **RTMP Live Streaming**: Stream to any RTMP platform - YouTube, Twitch, Bilibili, Douyin, TikTok, Facebook Live, etc.
+- 🎬 **RTMP Live Streaming**: Stream to any RTMP platform - YouTube, Twitch, TikTok, Facebook Live, and more
 - 👁️ **Quick Vision**: Siri voice activation - identify objects without unlocking your phone
 - 🤖 **Live AI**: Real-time multimodal AI conversation via glasses camera and microphone
-- 🍽️ **LeanEat**: Take a photo to get nutrition analysis and health scores
+- 🍽️ **LeanEat**: Take a photo to get instant nutrition analysis and health scores
 
 ### 🌐 Multi-Language & Multi-Platform
 
 - 🌐 **Bilingual Interface**: Full English and Chinese UI support with easy switching
 - 🔌 **OpenRouter Support**: Access 500+ AI models including GPT-5, Claude 4.5, Gemini 3, and more
-- 🎙️ **Google Gemini Live**: Live AI now supports Google Gemini real-time voice chat (requires non-China network)
-- 🌏 **Alibaba Multi-Region**: Support for Beijing (China mainland) and Singapore (International) endpoints
+- 🎙️ **Google Gemini Live**: Live AI supports Google Gemini real-time voice chat
+- 🌏 **Multi-Region Support**: Beijing (China) and Singapore (International) API endpoints
 - 🔑 **Independent API Key Management**: Separate API keys for different providers and regions
 
 ---
@@ -70,9 +68,9 @@
 
 </div>
 
-Due to Meta DAT SDK limitations, the app cannot directly access the glasses camera in the background. We innovatively combined **Siri Shortcuts + App Intent + Alibaba Cloud TTS** to achieve this feature:
+Due to Meta DAT SDK limitations, the app cannot directly access the glasses camera in the background. We innovatively combined **Siri Shortcuts + App Intent + Cloud TTS** to achieve this feature:
 
-- 📱 **Siri Voice Wake-up**: Just say "Hey Siri, TurboMeta Quick Vision"
+- 📱 **Siri Voice Wake-up**: Say "Hey Siri, TurboMeta Quick Vision"
 - ⌚ **Action Button Trigger** (iPhone 15 Pro+): One-tap Quick Vision
 - 🔊 **Voice Result Announcement**: High-quality TTS powered by qwen3-tts-flash
 - 🎯 **Fully Automated**: Start stream → Capture → Stop stream → AI Recognition → TTS Announcement
@@ -85,10 +83,10 @@ Due to Meta DAT SDK limitations, the app cannot directly access the glasses came
 
 <table>
   <tr>
-    <td align="center"><b>首页</b><br/>Home</td>
-    <td align="center"><b>对话记录</b><br/>Live AI</td>
-    <td align="center"><b>拍摄页面</b><br/>Camera</td>
-    <td align="center"><b>设置页面</b><br/>Settings</td>
+    <td align="center"><b>Home</b></td>
+    <td align="center"><b>Live AI</b></td>
+    <td align="center"><b>Camera</b></td>
+    <td align="center"><b>Settings</b></td>
   </tr>
   <tr>
     <td><img src="./screenshots/首页.jpg" width="180"/></td>
@@ -101,16 +99,16 @@ Due to Meta DAT SDK limitations, the app cannot directly access the glasses came
 ## 🎬 Video Demo
 
 <a href="https://www.bilibili.com/video/BV1aTqSBHEqN" target="_blank">
-  <img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?style=for-the-badge&logo=bilibili" alt="Video Demo"/>
+  <img src="https://img.shields.io/badge/Bilibili-Watch Demo-00A1D6?style=for-the-badge&logo=bilibili" alt="Video Demo"/>
 </a>
 
 👉 <a href="https://www.bilibili.com/video/BV1aTqSBHEqN" target="_blank">Watch on Bilibili</a>
 
 > 💡 If you find this project helpful, consider [**buying me a coffee**](https://buymeacoffee.com/turbo1123) ☕
 
-## 📥 Download
+## 📥 Download & Installation
 
-> **No App Store / Google Play** - Install directly using methods below
+> **No App Store required** - Install directly using the methods below
 
 ### ⚠️ Important: Enable Developer Mode First!
 
@@ -124,16 +122,16 @@ Before using TurboMeta, you **MUST** enable developer mode in Meta AI App:
 6. **Tap the version number 5 times rapidly**
 7. You'll see "Developer mode enabled" message
 
-> Without developer mode, the app will show an error when redirecting to Meta AI App!
+> Without developer mode, the app will show an error when connecting to Meta AI App!
 
 ---
 
 ### 📱 Android
 
-👉 [**Go to Downloads**](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
+👉 [**Download Latest Release**](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
 
-**Android Installation:**
-1. Download APK file
+**Installation Steps:**
+1. Download the APK file
 2. Enable "Install from unknown sources" in Settings
 3. Open APK to install
 4. Grant permissions (Bluetooth, Microphone)
@@ -143,57 +141,49 @@ Before using TurboMeta, you **MUST** enable developer mode in Meta AI App:
 
 ### 🍎 iOS (Recommended)
 
-> ✅ Supports bilingual UI, OpenRouter, Gemini, RTMP streaming
+> ✅ Full feature support: Bilingual UI, OpenRouter, Gemini, RTMP streaming
 
-👉 [**Go to Downloads**](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
+👉 [**Download Latest Release**](https://github.com/Turbo1123/turbometa-rayban-ai/releases)
 
-**iOS Installation Methods:**
+### Installation Tools
 
 | Tool | Platform | Description |
 |------|----------|-------------|
 | [AltStore](https://altstore.io/) | macOS/Windows | Free, requires Apple ID |
 | [Sideloadly](https://sideloadly.io/) | macOS/Windows | Free, easy to use |
-| [爱思助手 (i4Tools)](https://www.i4.cn/) | Windows | Chinese users recommended |
+| [i4Tools](https://www.i4.cn/) | Windows | Popular in China |
 | Xcode | macOS | Build from source code |
 
-### i4Tools Installation Guide (Recommended for Windows)
+### AltStore / Sideloadly Installation
 
-**Step 1**: Open i4Tools, go to "Toolbox" → "IPA Signature"
+**Step 1**: Download and install AltStore or Sideloadly on your computer
 
-![Step 1](./i4png/第一步打开爱思选择工具ipa签名.png)
+**Step 2**: Connect your iPhone via USB
 
-**Step 2**: Add IPA file and sign with your Apple ID
-
-![Step 2](./i4png/第二步用appleid进行签名.png)
-
-**Step 3**: After signing, go to "Apps" → "Import & Install", select the signed IPA
-
-![Step 3](./i4png/第三步.png)
+**Step 3**: Drag the IPA file to AltStore/Sideloadly and sign with your Apple ID
 
 **Step 4**: On iPhone, go to **Settings → General → VPN & Device Management**, trust the developer certificate
 
-**Step 5**: Open TurboMeta and configure your Alibaba Cloud API Key in Settings 👉 [See Configuration Guide](#api-key-config)
+**Step 5**: Open TurboMeta and configure your API Key in Settings 👉 [See Configuration Guide](#api-key-config)
 
 ---
 
 ## 📖 Introduction
 
-TurboMeta is a full-featured multimodal AI assistant built exclusively for RayBan Meta smart glasses, powered by Alibaba Cloud's Qwen multimodal AI models:
+TurboMeta is a full-featured multimodal AI assistant designed exclusively for RayBan Meta smart glasses. Powered by Alibaba Cloud's Qwen multimodal AI models, it offers:
 
 - 🎯 **Live AI Conversations**: Real-time multimodal interaction through glasses camera and microphone
-- 🍎 **Smart Nutrition Analysis**: Capture food photos and get detailed nutritional information and health recommendations
+- 🍎 **Smart Nutrition Analysis**: Capture food photos to get detailed nutritional information and health recommendations
 - 👁️ **Image Recognition**: Intelligently identify objects, scenes, and text in your field of view
-- 🎥 **Live Streaming**: Stream directly to platforms like Douyin, Kuaishou, and Xiaohongshu
-- 🌐 **Full Chinese Support**: Complete Chinese AI interaction experience, perfectly tailored for Chinese users
+- 🎥 **Live Streaming**: Stream directly to platforms like YouTube, Twitch, TikTok, and more
+- 🌐 **Bilingual Support**: Complete English and Chinese AI interaction experience
 
-This is the world's first **fully Chinese-enabled** RayBan Meta AI assistant, bringing the convenience of smart glasses to Chinese-speaking users.
-
-## ✨ Core Features
+## ✨ Feature Details
 
 ### 👁️ Quick Vision <sup>`NEW`</sup>
 - **Siri Wake-up**: Voice-triggered recognition without unlocking your phone
 - **Shortcuts Integration**: Supports iOS Shortcuts automation
-- **Action Button Support**: One-tap trigger on iPhone 15 Pro series
+- **Action Button Support**: One-tap trigger on iPhone 15 Pro series and iPhone 16
 - **High-quality TTS**: Voice announcement powered by qwen3-tts-flash
 - **Smart Recognition**: Based on qwen3-vl-plus multimodal visual understanding
 
@@ -201,8 +191,8 @@ This is the world's first **fully Chinese-enabled** RayBan Meta AI assistant, br
 - **Multimodal Interaction**: Simultaneous voice and visual input support
 - **Real-time Response**: Based on Qwen Omni-Realtime model with low-latency voice conversations
 - **Scene Understanding**: AI can see what's in front of you and provide relevant suggestions
-- **Natural Responses**: Smooth and natural Chinese conversation experience
-- **One-tap Hide**: Support for hiding conversation interface to focus on visual experience
+- **Natural Responses**: Smooth and natural conversation experience
+- **One-tap Hide**: Hide conversation interface to focus on visual experience
 
 ### 🍽️ LeanEat - Smart Nutrition Analysis
 - **Food Recognition**: Identify food types by taking photos
@@ -217,7 +207,7 @@ This is the world's first **fully Chinese-enabled** RayBan Meta AI assistant, br
 - **Smooth Experience**: Real-time video stream preview
 
 ### 🎥 Live Streaming
-- **Platform Support**: Compatible with mainstream live streaming platforms
+- **RTMP Support**: Compatible with any RTMP streaming platform
 - **Clean Interface**: Pure view focused on streaming content
 
 ## 🛠️ Tech Stack
@@ -239,7 +229,7 @@ This is the world's first **fully Chinese-enabled** RayBan Meta AI assistant, br
 ### AI Models
 - **Qwen Omni-Realtime**: Real-time multimodal conversations
 - **Qwen VL-Plus**: Visual understanding and image analysis
-- **Qwen TTS-Flash**: High-quality Chinese text-to-speech
+- **Qwen TTS-Flash**: High-quality text-to-speech
 
 ## 📋 Requirements
 
@@ -251,23 +241,23 @@ This is the world's first **fully Chinese-enabled** RayBan Meta AI assistant, br
 ### Software Requirements
 - ✅ Meta View App / Meta AI App (for pairing glasses)
 - ✅ Alibaba Cloud account (for API access)
-- ✅ Xcode 15.0+ (iOS development)
-- ✅ Android Studio (Android development)
+- ✅ Xcode 15.0+ (for iOS development)
+- ✅ Android Studio (for Android development)
 
 ### API Requirements
 You need to apply for the following Alibaba Cloud APIs:
 1. **Qwen Omni-Realtime API**: For real-time conversations
 2. **Qwen VL-Plus API**: For image recognition and nutrition analysis
 
-👉 [Apply for APIs at Alibaba Cloud Model Studio](https://www.alibabacloud.com/zh/product/modelstudio) | [Model Studio Console](https://bailian.console.alibabacloud.com/)
+👉 [Apply for APIs at Alibaba Cloud Model Studio](https://www.alibabacloud.com/product/modelstudio) | [Model Studio Console](https://bailian.console.alibabacloud.com/)
 
-## 🚀 Installation Guide
+## 🚀 Getting Started
 
 ### Step 1: Enable RayBan Meta Developer Mode
 
-⚠️ **Important**: Since this is currently in Preview phase, you must enable developer mode to use it.
+⚠️ **Important**: Developer mode must be enabled for the app to work.
 
-1. Open **Meta View App** (or **Meta AI App**) on your iPhone
+1. Open **Meta View App** (or **Meta AI App**) on your phone
 2. Go to **Settings** → **App Info** or **About**
 3. Find **Version Number**
 4. **Tap the version number 5 times consecutively**
@@ -278,16 +268,16 @@ You need to apply for the following Alibaba Cloud APIs:
 For detailed configuration guide, see 👉 [API Key Configuration](#api-key-config)
 
 Quick steps:
-1. Visit [Alibaba Cloud Model Studio](https://www.alibabacloud.com/zh/product/modelstudio) to register
+1. Visit [Alibaba Cloud Model Studio](https://www.alibabacloud.com/product/modelstudio) to register
 2. Login to [Model Studio Console](https://bailian.console.alibabacloud.com/) → API-KEY Management → Create API Key
 3. Enter your API Key in App "Settings" → "API Key Management"
-4. **International users**: Select **Singapore** region in "Settings" for better connectivity
+4. **International users**: Select **Singapore** region in Settings for better connectivity
 
-### Step 3: Build the Project
+### Step 3: Build from Source (Optional)
 
 1. Open `CameraAccess.xcodeproj` with Xcode
-2. Select your development team (Team)
-3. Modify Bundle Identifier (if needed)
+2. Select your development team
+3. Modify Bundle Identifier if needed
 4. Connect your iPhone
 5. Click **Run** or press `Cmd + R`
 
@@ -336,9 +326,9 @@ ios-deploy --bundle YourApp.app
 **Tips**:
 - Speak clearly and maintain appropriate distance
 - Ask "What do you see?" to have AI describe the scene
-- AI responds in concise Chinese
+- AI responds in concise, natural language
 
-> ⚠️ **International Users**: In Settings → API Key Management, select **Singapore** region for Live AI. This uses the international WebSocket endpoint (`wss://dashscope-intl.aliyuncs.com`) for better connectivity outside China mainland.
+> ⚠️ **International Users**: In Settings → API Key Management, select **Singapore** region for Live AI. This uses the international WebSocket endpoint for better connectivity outside China.
 
 ### LeanEat Nutrition Analysis
 
@@ -350,14 +340,14 @@ ios-deploy --bundle YourApp.app
 
 **Use Cases**:
 - Take photos before meals to understand nutritional content
-- Track daily intake when on a fitness diet
+- Track daily intake for fitness and diet goals
 - Learn about food nutrition
 
 ### Live Streaming
 
 1. Tap the **Live Stream** card on the home screen
-2. Wait for video stream to start
-3. Create your streaming content
+2. Configure your RTMP URL
+3. Start streaming content
 4. Tap stop button to end the stream
 
 ---
@@ -366,7 +356,7 @@ ios-deploy --bundle YourApp.app
 
 ## 👁️ Quick Vision Tutorial
 
-Quick Vision allows you to quickly identify objects in front of you through Siri or Shortcuts without unlocking your phone.
+Quick Vision allows you to identify objects in front of you through Siri or Shortcuts without unlocking your phone.
 
 ### 📋 Prerequisites
 
@@ -381,7 +371,7 @@ Quick Vision allows you to quickly identify objects in front of you through Siri
 1. Open the **Shortcuts** app on iPhone
 2. Tap **+** in the top right to create a new shortcut
 3. Tap **Add Action**
-4. Search for **TurboMeta** or **Turbo Meta**
+4. Search for **TurboMeta**
 5. Select **Quick Vision** action
 6. Tap the shortcut name at the top to rename it (e.g., "Quick Vision", "What's This")
 7. Tap **Done** to save
@@ -399,9 +389,9 @@ Quick Vision allows you to quickly identify objects in front of you through Siri
 
 </details>
 
-#### Method 2: iPhone 15 Pro Action Button
+#### Method 2: iPhone 15 Pro / 16 Action Button
 
-If you have iPhone 15 Pro / 15 Pro Max / 16 series, you can bind Quick Vision to the Action Button:
+If you have iPhone 15 Pro / 15 Pro Max / 16 series, bind Quick Vision to the Action Button:
 
 1. Open **Settings** → **Action Button**
 2. Select **Shortcut**
@@ -456,7 +446,7 @@ Siri/Shortcut Trigger
 **Q: Why is there no sound?**
 - Check if phone is on silent mode
 - Check Bluetooth audio output settings
-- TTS requires network connection (Alibaba Cloud service)
+- TTS requires network connection
 
 **Q: Can't find TurboMeta in Shortcuts?**
 - Open TurboMeta App at least once after installation
@@ -504,8 +494,9 @@ Customize AI response style in `OmniRealtimeService.swift`:
 **Solutions**:
 1. Check if internet connection is stable
 2. Verify API Key is correctly configured
-3. Check if Alibaba Cloud API quota is sufficient
+3. Check if API quota is sufficient
 4. Review console logs for errors
+5. Try switching to Singapore region for international users
 
 ### Q3: Nutrition analysis results inaccurate?
 
@@ -529,7 +520,7 @@ Customize AI response style in `OmniRealtimeService.swift`:
 1. Ensure environment is relatively quiet
 2. Speak clearly at moderate speed
 3. Don't obstruct the microphone
-4. Currently optimized for Chinese, other languages may be less accurate
+4. Currently optimized for Chinese and English
 
 ## 🔒 Privacy and Security
 
@@ -545,7 +536,7 @@ Customize AI response style in `OmniRealtimeService.swift`:
 - [x] Live AI real-time conversations
 - [x] LeanEat nutrition analysis
 - [x] Image recognition
-- [x] Basic live streaming functionality
+- [x] RTMP live streaming
 - [x] Bilingual Chinese/English support
 - [x] Conversation history saving
 - [x] One-tap hide conversations
@@ -553,7 +544,7 @@ Customize AI response style in `OmniRealtimeService.swift`:
 - [x] **Quick Vision** 🆕
   - [x] Siri Shortcuts integration
   - [x] App Intent support
-  - [x] Alibaba Cloud TTS voice announcement
+  - [x] TTS voice announcement
   - [x] iPhone Action Button support
 
 ### 🚧 In Progress
@@ -565,7 +556,7 @@ Customize AI response style in `OmniRealtimeService.swift`:
 - [ ] Real-time translation feature
 - [ ] WordLearn vocabulary learning
 - [ ] Cloud conversation sync
-- [ ] More live streaming platform support
+- [ ] More streaming platform support
 - [ ] Offline mode
 - [ ] Apple Watch companion app
 - [ ] Android Quick Vision support
@@ -594,95 +585,35 @@ Please see [LICENSE](LICENSE) file for details.
 - **Alibaba Cloud Qwen Team** - For powerful multimodal AI capabilities
 - **RayBan** - For excellent smart glasses hardware
 
-## 🚀 How to Open Source This Project
-
-### 1. Create GitHub Repository
-
-```bash
-# Create a new repository on GitHub website
-# Then execute in your project directory:
-git init
-git add .
-git commit -m "Initial commit: TurboMeta - RayBan Meta AI Assistant"
-git branch -M main
-git remote add origin https://github.com/your-username/your-repo.git
-git push -u origin main
-```
-
-### 2. Protect Sensitive Information
-
-✅ **Security Measures Implemented**:
-- API Keys are no longer hardcoded in the source code
-- Uses iOS Keychain for secure storage of user API Keys
-- Users configure their own API Keys in the App Settings
-
-⚠️ **Pre-release Checklist**:
-```bash
-# Search for potential sensitive information
-grep -r "sk-" .
-grep -r "API" . | grep -i "key"
-```
-
-### 3. Add .gitignore File
-
-Create a `.gitignore` file in project root:
-
-```gitignore
-# Xcode
-build/
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-xcuserdata/
-*.xccheckout
-*.moved-aside
-DerivedData/
-*.hmap
-*.ipa
-*.xcuserstate
-*.xcworkspace
-
-# API Keys (extra protection)
-**/*APIKey*.swift
-**/APIKeys.swift
-**/*Secret*.swift
-
-# macOS
-.DS_Store
-```
-
-### 4. Choose Open Source License
-
-This project is based on Meta DAT SDK sample code and follows the original project's license. You can:
-- Keep the same license as Meta's original project
-- Choose MIT, Apache 2.0, or other permissive licenses for your code
-- Acknowledge the original source code in the LICENSE file
-
 <a id="api-key-config"></a>
-### 5. User Configuration Instructions
 
-⚠️ **Important Notice**: Users need to configure Alibaba Cloud API Key:
+## 🔑 API Key Configuration
 
-#### Step 1: Register Alibaba Cloud Account
-Visit [Alibaba Cloud Model Studio](https://www.alibabacloud.com/zh/product/modelstudio) to register
+⚠️ **Important**: Users need to configure an API Key to use this app.
 
-#### Step 2: Get API Key
+### Step 1: Register Alibaba Cloud Account
+
+Visit [Alibaba Cloud Model Studio](https://www.alibabacloud.com/product/modelstudio) to register
+
+### Step 2: Get API Key
+
 1. Login to [Model Studio Console](https://bailian.console.alibabacloud.com/)
 2. Find "**API-KEY Management**" in the left menu
 3. Click "**Create API Key**" to generate a key
 4. Copy the generated API Key
 
-#### Step 3: Configure in App
+### Step 3: Configure in App
+
 1. Open TurboMeta App
 2. Go to "**Settings**" → "**API Key Management**"
 3. Paste your API Key and save
+4. **International users**: Select **Singapore** as your region
 
-> 🔒 **Security Note**: API Key is stored in iOS Keychain and Android EncryptedSharedPreferences, never exposed
+> 🔒 **Security Note**: API Key is stored securely in iOS Keychain and Android EncryptedSharedPreferences
 
 ## 🌟 If This Project Helps You
 
-- ⭐️ Star the project
+- ⭐️ Star the project on GitHub
 - 🐛 Report bugs or suggest features
 - 🔀 Fork and contribute code
 - 📢 Share with others
@@ -696,12 +627,8 @@ If this project helps you, consider supporting development! Your support keeps t
 <a href="https://buymeacoffee.com/turbo1123" target="_blank">
   <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" height="50"/>
 </a>
-&nbsp;&nbsp;
-<a href="./paypal2.png" target="_blank">
-  <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" height="50"/>
-</a>
 
-### ☕ [**Buy me a coffee**](https://buymeacoffee.com/turbo1123) &nbsp;|&nbsp; 💳 [**PayPal**](./paypal2.png)
+### ☕ [**Buy me a coffee**](https://buymeacoffee.com/turbo1123)
 
 </div>
 
